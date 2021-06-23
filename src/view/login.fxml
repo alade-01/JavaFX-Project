@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="349.0" prefWidth="829.0" style="-fx-background-color: #00ff00;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Login">
+   <AnchorPane layoutY="-1.0" prefHeight="349.0" prefWidth="829.0" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-1.0">
+      <AnchorPane layoutX="438.0" maxWidth="516.0" prefHeight="350.0" prefWidth="392.0" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="438.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="0.0">
+         <TextField fx:id="emailLoginUsers" alignment="CENTER" layoutX="56.0" layoutY="71.0" prefHeight="53.0" prefWidth="230.0" promptText="E-maïl" style="-fx-border-radius: 30 0 30 30; -fx-background-radius: 30 0 30 30; -fx-border-color: #FFE259;">
+            <font>
+               <Font name="Segoe UI Bold" size="14.0" />
+            </font>
+         </TextField>
+         <PasswordField fx:id="passwordLoginUsers" alignment="CENTER" layoutX="56.0" layoutY="163.0" prefHeight="53.0" prefWidth="230.0" promptText="Password" style="-fx-border-radius: 30 0 30 30; -fx-background-radius: 30 0 30 30; -fx-border-color: #FFE259;">
+            <font>
+               <Font name="Segoe UI Bold" size="14.0" />
+            </font>
+         </PasswordField>
+         <Button fx:id="login" layoutX="109.0" layoutY="245.0" mnemonicParsing="false" onAction="#loginUsers" prefHeight="41.0" prefWidth="131.0" style="-fx-border-radius: 30 0 30 30; -fx-background-radius: 30 0 30 30; -fx-background-color: #ffff; -fx-border-color: #FFE259; -fx-border-width: 2px;" text="Login" textFill="#ffe259">
+            <font>
+               <Font name="Segoe UI Bold" size="16.0" />
+            </font>
+         </Button>
+         <Button fx:id="register" layoutX="92.0" layoutY="304.0" mnemonicParsing="false" onAction="#registerUsers" prefHeight="32.0" prefWidth="159.0" style="-fx-border-radius: 30 0 30 30; -fx-background-radius: 30 0 30 30; -fx-background-color: #ffffff;" text="No yet register  ?" textFill="LIME">
+            <font>
+               <Font name="Segoe UI Bold" size="14.0" />
+            </font>
+         </Button>
+         <Button fx:id="closeWindowLoginButton" layoutX="355.0" layoutY="2.0" mnemonicParsing="false" onAction="#closeWindowLogin" prefHeight="24.0" prefWidth="23.0" style="-fx-background-color: #ffffff;">
+            <graphic>
+               <ImageView fitHeight="14.0" fitWidth="14.0" pickOnBounds="true" preserveRatio="true">
+                  <Image url="@img/close.png" />
+               </ImageView>
+            </graphic>
+         </Button>
+         <Label layoutX="9.0" layoutY="-15.0" lineSpacing="5.0" prefHeight="70.0" prefWidth="331.0" text="WELCOME TO THE LOGIN INTERFACE" textAlignment="CENTER" textFill="#ffe259" underline="true">
+            <font>
+               <Font name="Segoe UI Bold" size="18.0" />
+            </font>
+         </Label>
+      </AnchorPane>
+      <AnchorPane layoutX="-2.0" layoutY="1.0" prefHeight="350.0" prefWidth="370.0" style="-fx-background-color: #FFE259;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-2.0" AnchorPane.rightAnchor="461.0" AnchorPane.topAnchor="0.0">
+         <ImageView fitHeight="350.0" fitWidth="378.0" layoutX="-4.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@img/loginImage.jpg" />
+         </ImageView>
+         <Button fx:id="previousButtonWindowLogin" layoutX="6.0" layoutY="8.0" mnemonicParsing="false" onAction="#previousWindowLogin" prefHeight="22.0" prefWidth="41.0" style="-fx-background-color: #ffffff;">
+            <graphic>
+               <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                  <Image url="@img/left-arrow.png" />
+               </ImageView>
+            </graphic>
+         </Button>
+      </AnchorPane>
+   </AnchorPane>
+</AnchorPane>

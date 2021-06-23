@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="381.0" prefWidth="1309.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SaveContact">
+   <TextField fx:id="userContact" alignment="CENTER" layoutX="803.0" layoutY="89.0" prefHeight="53.0" prefWidth="181.0" promptText="Phone" style="-fx-border-radius: 30 0 30 30; -fx-background-radius: 30 0 30 30; -fx-border-color: #684e49;">
+      <font>
+         <Font name="Segoe UI Bold" size="14.0" />
+      </font>
+   </TextField>
+   <Label layoutX="878.0" layoutY="7.0" prefHeight="32.0" prefWidth="251.0" text="SAVING A CONTACT" textFill="#684e49" underline="true">
+      <font>
+         <Font name="Segoe UI Bold" size="25.0" />
+      </font>
+   </Label>
+   <Label layoutX="697.0" layoutY="104.0" prefHeight="23.0" prefWidth="102.0" text="Phone       :" textFill="#684e49">
+      <font>
+         <Font name="Segoe UI Bold" size="18.0" />
+      </font>
+   </Label>
+   <Label layoutX="1009.0" layoutY="104.0" prefHeight="23.0" prefWidth="102.0" text="Last name :" textFill="#684e49">
+      <font>
+         <Font name="Segoe UI Bold" size="18.0" />
+      </font>
+   </Label>
+   <Label layoutX="702.0" layoutY="220.0" prefHeight="23.0" prefWidth="91.0" text="E-mail      :" textFill="#684e49">
+      <font>
+         <Font name="Segoe UI Bold" size="18.0" />
+      </font>
+   </Label>
+   <Label layoutX="1036.0" layoutY="220.0" prefHeight="23.0" prefWidth="68.0" text="Sex      :" textFill="#684e49">
+      <font>
+         <Font name="Segoe UI Bold" size="18.0" />
+      </font>
+   </Label>
+   <TextField fx:id="userName" alignment="CENTER" layoutX="1116.0" layoutY="89.0" prefHeight="53.0" prefWidth="170.0" promptText="Last name" style="-fx-border-radius: 30 0 30 30; -fx-background-radius: 30 0 30 30; -fx-border-color: #684e49;">
+      <font>
+         <Font name="Segoe UI Bold" size="14.0" />
+      </font>
+   </TextField>
+   <TextField fx:id="userEmail" alignment="CENTER" layoutX="799.0" layoutY="208.0" prefHeight="53.0" prefWidth="188.0" promptText="E-mail" style="-fx-border-radius: 30 0 30 30; -fx-background-radius: 30 0 30 30; -fx-border-color: #684e49;">
+      <font>
+         <Font name="Segoe UI Bold" size="14.0" />
+      </font>
+   </TextField>
+   <CheckBox fx:id="chexBoxHomme" layoutX="1116.0" layoutY="220.0" mnemonicParsing="false" onAction="#chexBoxHommeMethod" prefHeight="23.0" prefWidth="75.0" text="Man">
+      <font>
+         <Font name="Segoe UI Bold" size="14.0" />
+      </font></CheckBox>
+   <CheckBox fx:id="chexBoxFemme" layoutX="1201.0" layoutY="220.0" mnemonicParsing="false" onAction="#chexBoxFemmeMethod" prefHeight="23.0" prefWidth="82.0" text="Women">
+      <font>
+         <Font name="Segoe UI Bold" size="14.0" />
+      </font>
+   </CheckBox>
+   <Button fx:id="enregistrerContact" layoutX="949.0" layoutY="317.0" mnemonicParsing="false" onAction="#enregistrerNewContact" prefHeight="46.0" prefWidth="121.0" style="-fx-border-radius: 30 0 30 30; -fx-background-radius: 30 0 30 30; -fx-background-color: #ffffff; -fx-border-color: #FFE259; -fx-border-width: 2px;" text="Save" textFill="#684e49">
+      <font>
+         <Font name="Segoe UI Bold" size="16.0" />
+      </font>
+   </Button>
+   <ImageView fitHeight="388.0" fitWidth="688.0" layoutX="-19.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@img/saveWindowContact.png" />
+   </ImageView>
+   <Button fx:id="previousButtonWindowSaveContact" layoutY="7.0" mnemonicParsing="false" onAction="#previousWindowSaveContact" prefHeight="32.0" prefWidth="36.0" style="-fx-background-color: #EBEEF5;">
+      <graphic>
+         <ImageView fitHeight="24.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@img/left-arrow.png" />
+         </ImageView>
+      </graphic>
+   </Button>
+</AnchorPane>

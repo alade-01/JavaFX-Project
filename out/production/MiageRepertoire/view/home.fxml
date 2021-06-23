@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="310.0" prefWidth="758.0" style="-fx-background-color: #684E49;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Home">
+    <Label layoutX="57.0" layoutY="37.0" lineSpacing="13.0" prefHeight="77.0" prefWidth="253.0" text="TELEPHONE DIRECTORY &#10;MANAGEMENT" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font name="Segoe UI Bold" size="20.0" />
+        </font>
+    </Label>
+    <Button fx:id="startWindowLogin" layoutX="118.0" layoutY="260.0" mnemonicParsing="false" onAction="#showWindowLogin" prefHeight="36.0" prefWidth="121.0" style="-fx-border-radius: 30 0 30 30; -fx-background-radius: 30 0 30 30; -fx-background-color: #FFE259;" text="To start" textFill="WHITE">
+        <font>
+            <Font name="Segoe UI Bold" size="17.0" />
+        </font>
+    </Button>
+    <Button fx:id="closeWindowHomeButton" layoutX="6.0" layoutY="7.0" mnemonicParsing="false" onAction="#closeWindowHome" prefHeight="13.0" prefWidth="16.0" style="-fx-background-color: #FFE259;">
+        <graphic>
+            <ImageView fitHeight="12.0" fitWidth="12.0" pickOnBounds="true" preserveRatio="true">
+                <Image url="@img/close.png" />
+            </ImageView>
+        </graphic>
+    </Button>
+    <ImageView fitHeight="310.0" fitWidth="392.0" layoutX="366.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@img/hris-image.jpg" />
+    </ImageView>
+   <Label layoutX="53.0" layoutY="119.0" lineSpacing="10.0" prefHeight="109.0" prefWidth="296.0" text="               is software which aims &#10;to facilitate and optimize the management &#10;of the telephone directory of a compagny. " textAlignment="CENTER" textFill="WHITE">
+      <font>
+         <Font name="Segoe UI Bold" size="13.0" />
+      </font>
+   </Label>
+   <Label layoutX="71.0" layoutY="138.0" text="PhoneSync" textFill="#ffe259">
+      <font>
+         <Font name="Segoe UI Bold" size="12.0" />
+      </font>
+   </Label>
+</AnchorPane>

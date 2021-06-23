@@ -7,7 +7,7 @@
 ## __SCREESHOTS__
 
 ### __HOME__
-<img src="https://user-images.githubusercontent.com/66962165/123179470-fcf4d580-d478-11eb-829d-e792bd5c7550.png" alt="home-page" width="425"/>
+<img src="https://user-images.githubusercontent.com/66962165/123179470-fcf4d580-d478-11eb-829d-e792bd5c7550.png" alt="home-page" width="425" height="180"/>
 
 ### __LOGIN__
 <img src="https://user-images.githubusercontent.com/66962165/123179480-05e5a700-d479-11eb-8d4e-69f175bdbb1a.png" alt="community-life" width="425" height="180"/>

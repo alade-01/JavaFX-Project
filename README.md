@@ -1,6 +1,6 @@
 # __Telephone-Directory-Management-First-Design-JavaFX-Project__
 
-## Development of a software for managing telephone directories with a second design using the __javaFx__ library and the __MySQL__ database.
+## Development of a software for managing telephone directories with a first design using the __javaFx__ library and the __MySQL__ database.
 
 ## [Watch it on YouTube](https://youtu.be/GOEUCDLtBls)
 

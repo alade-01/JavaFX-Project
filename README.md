@@ -2,7 +2,7 @@
 
 ## Development of a software for managing telephone directories with a first design using the __javaFx__ library and the __MySQL__ database.
 
-## [Watch it on YouTube](https://youtu.be/GOEUCDLtBls)
+## [Watch it on YouTube](https://youtu.be/_O2klKNA1fg)
 
 ## __SCREESHOTS__
 
